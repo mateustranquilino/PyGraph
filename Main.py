@@ -32,4 +32,5 @@ graph.add_edge("e", "d", name="z")
 adjacency_matrix =  graph.adjacency_matrix()
 for line in adjacency_matrix:
     print(line, adjacency_matrix[line])
+
 '''
